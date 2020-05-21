@@ -5,6 +5,8 @@
  */
 package com.mycompany.actividad_github_nacho;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Usuario
@@ -21,7 +23,10 @@ public class Principal {
         System.out.println("Hola2");
         System.out.println("Hola2");
         System.out.println("Hola2");
-        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introduce un numero");
+        int numero = sc.nextInt();
+        System.out.println("Tu numero es: "+ numero);
     }
     
 }
